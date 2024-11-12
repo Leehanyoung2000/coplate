@@ -1,0 +1,23 @@
+# Python 가상환경 폴더 (필요에 따라 이름이 다를 수 있음)
+venv/
+env/
+
+# Python 컴파일된 파일들 무시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Django에서 생성되는 SQLite 데이터베이스 파일 무시
+db.sqlite3
+
+# 환경 변수 파일
+.env
+
+# Django 미디어 및 정적 파일 무시
+/media/
+/staticfiles/
+
+# 기타 시스템 파일 무시
+.DS_Store  # macOS 시스템 파일
+Thumbs.db  # Windows 시스템 파일
